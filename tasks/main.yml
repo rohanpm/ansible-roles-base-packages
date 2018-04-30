@@ -1,0 +1,10 @@
+---
+- name: Install package
+  package:
+    name: "{{ item }}"
+    state: present
+  with_items:
+  - git
+  - keepassx0
+  - vim-enhanced
+  become: yes    
