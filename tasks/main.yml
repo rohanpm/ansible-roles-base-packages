@@ -7,4 +7,5 @@
   - git
   - keepassx0
   - vim-enhanced
-  become: yes    
+  - /usr/bin/kinit
+  become: yes
